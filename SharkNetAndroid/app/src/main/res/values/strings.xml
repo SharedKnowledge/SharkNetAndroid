@@ -10,6 +10,7 @@
     <string name="action_radar">Radar</string>
     <string name="action_messages">Messages</string>
     <string name="action_interests">Interests</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_security">Security Setting</string>
+    <string name="action_settings">Other Settings</string>
 
 </resources>
