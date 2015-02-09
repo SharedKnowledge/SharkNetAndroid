@@ -1,6 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.sharksystem.sharknetandroid.MainActivity">
+
+    <item android:id="@+id/action_contacts" android:title="@string/action_contacts"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_chats" android:title="@string/action_chats"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_radar" android:title="@string/action_radar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_messages" android:title="@string/action_messages"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_interests" android:title="@string/action_interests"
+        android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+
 </menu>
